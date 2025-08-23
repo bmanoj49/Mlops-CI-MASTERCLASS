@@ -27,7 +27,7 @@ jobs:
         python -m pip install pytest streamlit
     - name: Run tests
       run: |
-        pytest D:\Mlops\Mlops-CI-MASTERCLASS\.github\workflows\_test.py
+        pytest test_mycode.py
 
 
             
